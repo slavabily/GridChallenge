@@ -7,5 +7,11 @@
 
 import Foundation
 
-print("Hello, World!")
+func gridChallenge(grid: [String]) -> String {
+    // Write your code here
+
+    return "YES"
+}
+
+print(gridChallenge(grid: ["abc","ade","efg"]))
 
