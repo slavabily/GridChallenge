@@ -8,10 +8,12 @@
 import Foundation
 
 func gridChallenge(grid: [String]) -> String {
-    // Write your code here
+    let rowSample = grid[0]
+    let rev = String(rowSample.sorted())
+    print(rev)
 
     return "YES"
 }
 
-print(gridChallenge(grid: ["abc","ade","efg"]))
+print(gridChallenge(grid: ["cab","ade","efg"]))
 
